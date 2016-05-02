@@ -1,0 +1,15 @@
+#!/usr/bin/env node
+
+const yargs = require('yargs');
+const TimeDist = require('../lib/TimeDist');
+
+function getSegmentId(argv) {
+  return argv._[1] || 941561;
+}
+
+yargs.usage('$0 <cmd> [args] {segment-id}')
+    .command('time-dist', 'show time distribution for a segment', {}, function (argv) {
+      TimeDist.timeDist(getSegmentId(argv));
+    })
+    .help('help')
+    .argv;

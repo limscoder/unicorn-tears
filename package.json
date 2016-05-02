@@ -1,0 +1,27 @@
+{
+  "name": "unicorn-tears",
+  "version": "0.0.1",
+  "description": "Strava segment stats",
+  "main": "bin/cry.js",
+  "scripts": {
+    "cry": "bin/cry",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limscoder/unicorn-tears.git"
+  },
+  "keywords": [
+    "strava"
+  ],
+  "author": "Dave Thompson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limscoder/unicorn-tears/issues"
+  },
+  "homepage": "https://github.com/limscoder/unicorn-tears#readme",
+  "dependencies": {
+    "strava-v3": "^1.10.0",
+    "yargs": "^4.6.0"
+  }
+}
