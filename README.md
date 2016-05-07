@@ -25,3 +25,8 @@ Commands
 Show time distribution for a segment:
 
   > cry time-dist {segment-id}
+
+Unicorn Tears?
+--------------
+
+It's the name of a segment I ride frequently, and it's the default segment if you don't specify one.
